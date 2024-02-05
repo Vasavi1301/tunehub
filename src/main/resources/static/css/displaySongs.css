@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+body {
+	font-family: sans-serif;
+	background-image: url("music.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:0;
+	margin:0;
+}
+section{
+	display: inline-table;
+	justify-content: center;
+	align-items: center;
+}
+
+table {
+	position: absolute;
+	
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-collapse: collapse;
+	width: 1000px;
+	height: 200px;
+	border: 1px solid #596167;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px
+		rgba(0, 0, 0, 0.2);
+}
+
+tr {
+	transition: all .2s ease-in;
+	cursor: pointer;
+}
+
+thead, tbody {
+	padding: 20px;
+	text-align: center;
+	border-bottom: 1px solid #c5b6b6;
+}
+
+#header {
+	background-color: #4d7e74;
+	color: #fff;
+	font-family: cursive;
+	font-style: italic;
+	position: sticky;
+}
+
+
+
+tr:hover {
+	background-color: #d9d6d6;
+	transform: scale(1.02);
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px
+		rgba(0, 0, 0, 0.2);
+}

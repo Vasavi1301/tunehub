@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+body {
+	font-family: sans-serif;
+	background-image: url("music.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+section {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.container {
+	border: 10px solid white;
+	max-width: 350px;
+	margin: auto;
+	width: 140%;
+	height: 45vh;
+	display: inline-table;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-size: 35px;
+	color: darkslategray;
+}
+
+.button {
+	text-align: center;
+	font-size: 18px;
+	font-family: lucida;
+	padding: 8px 20px;
+}
+.main{
+	font-style: italic;
+}

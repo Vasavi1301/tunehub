@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+            body{
+                font-family: sans-serif;
+                background-image:url("music.jpeg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+            .main{
+                font-family: Times New Roman;
+                font-style: italic;
+                font-size: xx-large;
+                text-align: center;
+            }
+            section{
+                
+                height:70vh;
+                display:flex;
+                justify-content: center;
+                align-items:center;
+            }
+            .center{
+                border: 10px solid white;
+                max-width: 350px;
+                margin:auto;
+                width:100%;
+                height: 33vh;
+                display:flex;
+                justify-content: center;
+                align-items:center;
+            }
+        
